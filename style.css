@@ -1,0 +1,75 @@
+html{
+    scroll-behavior: smooth
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.fade-in-text {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+    color: #baa8a4;;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#selfintro{
+    font-family: 'Montserrat';
+    text-align: center;
+    margin: auto;
+}
+#sometextaboutfood{
+    line-height: 1.6;
+    font-size: larger;
+}
+#selfimage{
+    margin: auto;
+}
+#foodcarousel .d-block {
+    margin: auto;
+}
+#carouseldesc{
+    font-family: 'Montserrat';
+    text-align: center;
+    margin: auto;
+    font-size: x-large;
+}
+#toprow{
+    margin-top: 10vh;
+}
+iframe {
+    margin: auto;
+    width: 75vh;
+    height: 50vh;
+    align-self: center;
+ }
+ #getpunked{
+    width: 100%;
+    display: flex;
+ }
